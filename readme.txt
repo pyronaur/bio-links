@@ -9,18 +9,18 @@ Requires PHP: 5.4.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easy way to add multiple links to a single Instagram profile!
+Create a landing page with all your most important url links (social, website or shop, etc) and have them show up under a single link. Then share this link in all your social biography profiles!
 
 == Description ==
 
-Easy way to add multiple links to a single Instagram profile!
-Help your followers discover all of your recent content!
+Do you have multiple social networks, websites, shops an other places you would like to lead people to?
+Have you noticed that many social profiles, such as instagram, twitter, pinterest and others have a place in your biography area
+for only one link? Would you like to be able to add multiple links there instead?
+Well, now you can - with Link Bio plugin create a landing page where you can add all your important url links and share this link landing page in all your bio areas.
 
-### Multiple destinations
-Send followers anywhere: articles, webstore, events, socials and more.
+With Link Bio you can create as many link landing pages as you need - create one for yourself, one for your products page, one for your busines, one for your cat and so on. Each of these landing pages will have its
+own custom url address, its own profile picture or logo and as many buttons to your important links as you need.
 
-### Easily managed
-Paste in new URLs, then drag and drop the links to reorder.
 
 == Frequently Asked Questions ==
 
