@@ -1,0 +1,43 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 112.5%;
+  line-height: 1.67;
+  color: #232323;
+}
+a {
+  text-decoration: none;
+}
+.biolinks {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  padding-top: 5vh;
+}
+.description,
+.thumbnail {
+  margin-bottom: 1.4rem;
+  text-align: center;
+}
+.thumbnail img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button {
+  border: 2px solid #232323;
+  background-color: #232323;
+  border-radius: 2px;
+  display: block;
+  margin-bottom: 0.66rem;
+  padding: 0.66rem 0.2rem;
+  color: #f5f5f5;
+  text-align: center;
+  -webkit-transition: all 0.33s ease;
+  transition: all 0.33s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.button:hover {
+  background-color: #434343;
+}

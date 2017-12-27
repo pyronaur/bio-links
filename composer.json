@@ -1,0 +1,20 @@
+{
+  "name": "colormelon/biolinks",
+  "description": "Multiple links for your social profiles",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Norris",
+      "email": "im@justnorris.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Bio_Links_Plugin\\": "Bio_Links_Plugin"
+    }
+  },
+  "require": {
+    "webdevstudios/cmb2": "^2.2"
+  }
+}

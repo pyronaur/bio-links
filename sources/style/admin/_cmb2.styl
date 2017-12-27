@@ -1,0 +1,96 @@
+.PPA_Metabox
+	padding-top: .5rem
+	border-top: 1px solid #eaeaea
+	padding-bottom: @padding-top * 2
+	margin-top: @padding-top
+	margin-bottom: @padding-top
+	border-bottom: @border-top
+
+	input[type=text]
+		width: 100%
+		height: 2.5rem
+		outline: none
+		padding: .2em .4em
+		font-size: 1.125em
+	.cmb-th
+		margin-bottom: .5em
+		margin-top: .5em
+		color: #666
+
+	.cmb-th, .cmb-td
+		max-width: 100%
+		width: 100%
+		margin-left: 0
+		padding: 0
+
+// CMB2 Gallery Styles
+#biolinks_post_after_meta .cmb-type-file-list
+
+	.cmb-td, .cmb-th
+		width: 100%
+		max-width: 100%
+
+/**
+	Description fields don't work well with checkbox fields out of the box.
+	Adjust them a bit.
+ */
+.biolinks_options
+	.cmb2-metabox-description
+		font-style: normal
+		color: #898989
+		line-height: 1.5
+		font-size: 0.8rem
+
+		border: 0
+		padding: 1em
+		border-radius: 3px
+		background-color: #f7f7f7
+		margin-top: 1em
+
+		display: flex
+		align-items: center
+
+		&:before
+			content: "\f348"
+			font-family: dashicons
+			color: #a6a6a6
+			font-size: 1.5rem
+			line-height: 1
+			margin-right: .33rem
+			font-weight: 400
+			-webkit-font-smoothing: antialiased
+			width: 2rem
+
+	.cmb2-metabox>.cmb-row>.cmb-th+.cmb-td
+		margin-left: 250px !important
+
+	.cmb-th
+		width: 250px
+
+		label
+			font-weight: 500
+			letter-spacing: .15px
+
+	.cmb2_select
+		min-width: 230px
+
+	.cmb-type-title.cmb-row
+		margin-top: 4rem
+		border-bottom: 1px solid #e8e8e8
+
+		.cmb2-metabox-title
+			margin: .5em 0
+
+	.button-primary
+		margin-top: 2rem
+		padding-left: 2rem
+		padding-right: 2rem
+// Specificity war with CMB2
+.cmb2-wrap.cmb2-wrap
+	input:focus, textarea:focus
+		background-color: #fff
+
+// Prevent flash of unstyled settings
+.js
+	#cmb2-id-lg-thumbnails, #cmb2-id-portfolio-home-category, #cmb2-id-portfolio-home-entry
+		display: none

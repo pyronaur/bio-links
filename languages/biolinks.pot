@@ -1,0 +1,42 @@
+# Copyright (C) 2017 Bio Links
+# This file is distributed under the same license as the Bio Links package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bio Links\n"
+"Report-Msgid-Bugs-To: http://help.colormelon.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Colormelon <help@colormelon.com>\n"
+"Language-Team: Colormelon <help@colormelon.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: Bio_Links_Plugin.php:96, Bio_Links_Plugin.php:105
+msgid "Can't do this thing."
+msgstr ""
+
+#: Bio_Links_Plugin/Admin_View/CMB2_Options_Page.php:51
+msgid "Settings updated."
+msgstr ""
+
+#: Bio_Links_Plugin/Admin_View/Welcome_Message.php:53
+msgid "Welcome to Bio Links"
+msgstr ""
+
+#: Bio_Links_Plugin/Admin_View/Welcome_Message.php:59
+msgid "To get started, have a look at the <a target=\"_blank\" href=\"%1$s\">full setup guide</a> or the <a target=\"_blank\" href=\"%2$s\">video tutorial</a>"
+msgstr ""
+
+#: Bio_Links_Plugin/Settings/Register_Metaboxes.php:26
+msgid "Links"
+msgstr ""
+
+#: php-require-54.php:61
+msgid "<p>Your hosting environment is <strong>outdated</strong> and <strong>insecure</strong>! <br> Minimum version required for Bio Links is PHP 5.4. Read more information about <a href=\"http://www.wpupdatephp.com/update/\">how you can update your server</a>!</p>"
+msgstr ""

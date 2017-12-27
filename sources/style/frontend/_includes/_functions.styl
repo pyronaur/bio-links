@@ -1,0 +1,15 @@
+transparentize(args...)
+	transparentify(args)
+
+
+calc_sub_func(w = 100%, subtract = 0)
+	return "calc(%s - %s)" % (w subtract)
+
+calc_add_func(w = 100%, subtract = 0)
+	return "calc(%s + %s)" % (w subtract)
+
+calc_sub(w = 100%, subtract)
+	width: calc_sub_func(w, subtract)
+
+calc_add(w = 100%, subtract)
+	width: calc_add_func(w, subtract)

@@ -1,0 +1,49 @@
+#wpcontent
+
+	.Biolinks_Welcome
+		padding: 2rem 1.5rem
+		font-size: 1.125rem
+		position: relative
+		border: none
+
+	h4
+		line-height: 1.2
+		margin: 0
+		margin-bottom: .75rem
+		font-size: 1.125rem
+		font-weight: 400
+
+	.Biolinks_Hide
+		text-decoration: none
+		font-size: 2rem
+		text-transform: uppercase
+		letter-spacing: 1px
+
+		position: absolute
+		right: 1rem
+		top: 1rem
+		color: black
+
+		&:hover
+			color: $red
+
+	.Biolinks_Welcome:after
+		content: ''
+		display: block
+		position: absolute
+		top: 0
+		left: 0
+		layer(Welcome)
+		height: 5px
+		width: 100%
+		background: linear-gradient(to right,
+		$blue 0%,
+		$blue 25%,
+		$violet 25%,
+		$violet 50%,
+		$red 50%,
+		$red 75%,
+		$yellow 75%,
+		$yellow 100%
+		)
+		border-radius: 2px
