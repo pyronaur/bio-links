@@ -28,7 +28,7 @@ own custom url address, its own profile picture or logo and as many buttons to y
 [Okay](https://wordpress.org/support/plugin/bio-links)
 
 = GitHub for Developers? =
-Everything code-related can be found on [GitHub](https://github.com/justnorris/easy-biolinks/) and [Github Wiki](https://github.com/colormelon/bio-links/)
+Everything code-related can be found on [GitHub](https://github.com/colormelon/bio-links/)
 
 == Installation ==
 
