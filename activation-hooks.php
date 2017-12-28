@@ -12,11 +12,4 @@ function biolinks_plugin_activation_hook() {
 	// Flush rewrite rules
 	flush_rewrite_rules();
 
-	// Initialize Bio Links
-	biolinks_instance()->setup_settings();
-
-	// Setup sample content
-	// @TODO: Setup sample content
-	//	new Bio_Links_Plugin\Settings\Sample_Content\Setup_Sample_Content();
-
 }
