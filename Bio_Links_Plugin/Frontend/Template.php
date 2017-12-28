@@ -20,11 +20,11 @@ class Template {
 
 		// Only include base-name.php if `name` is set ( avoid loading `slug-.php` )
 		if ( $slug ) {
-			$search[] = "{$base}-{$slug}.php";
+			$search[] = "{$slug}/{$base}.php";
 		}
 
 		// Always fall back on slug.php
-		$search[] = "{$base}.php";
+		$search[] = "default/{$base}.php";
 
 		// Allow 3rd party plugins to modify the tempalte path
 		$templates = apply_filters( "biolinks/get_template/{$base}", $search, $base, $slug );
