@@ -23,7 +23,7 @@ class Register_Metaboxes {
 		$cmb = new_cmb2_box(
 			[
 				'id'           => biolinks_prefix( 'form' ),
-				'title'        => __( 'Links', 'biolinks' ),
+				'title'        => esc_html__( 'Links', 'biolinks' ),
 				'object_types' => [ 'biolink' ],
 				'context'      => 'normal',
 				'priority'     => 'high',
@@ -54,7 +54,7 @@ class Register_Metaboxes {
 		$cmb->add_field(
 			[
 				'name'    => esc_html__( 'Description', 'bio-links' ),
-				'desc'    => '(optional)',
+				'desc'    => esc_html__( '(optional)', 'bio-links' ),
 				'id'      => biolinks_prefix( 'description' ),
 				'type'    => 'textarea_small',
 				'options' => [],
@@ -65,14 +65,12 @@ class Register_Metaboxes {
 			[
 				'id'          => biolinks_prefix( 'links' ),
 				'type'        => 'group',
-				'description' => esc_html__( 'Linkity tuuu tuuu', 'bio-links' ),
-				// 'repeatable'  => false, // use false if you want non-repeatable group
+				'description' => esc_html__( 'Add buttons to your link page by clicking "Add Button" and adding a link title and URL', 'bio-links' ),
 				'options'     => [
 					'group_title'   => esc_html__( 'Button {#}', 'bio-links' ), // since version 1.1.4, {#} gets replaced by row number
 					'add_button'    => esc_html__( 'Add Another Button', 'bio-links' ),
 					'remove_button' => esc_html__( 'Remove Button', 'bio-links' ),
-					'sortable'      => true, // beta
-					// 'closed'     => true, // true to have the groups closed by default
+					'sortable'      => true,
 				],
 			]
 		);
@@ -80,7 +78,7 @@ class Register_Metaboxes {
 		$cmb->add_group_field(
 			$links_group,
 			[
-				'name' => 'Title',
+				'name' => esc_html__( 'Title', 'bio-links' ),
 				'id'   => 'title',
 				'type' => 'text',
 			]
@@ -89,8 +87,7 @@ class Register_Metaboxes {
 		$cmb->add_group_field(
 			$links_group,
 			[
-				'name' => 'Link',
-				'desc' => 'URL ',
+				'name' => esc_html__( 'Link URL', 'bio-links' ),
 				'id'   => 'url',
 				'type' => 'text_url',
 			]
@@ -98,16 +95,16 @@ class Register_Metaboxes {
 
 		$available_layouts = [
 			'default' => esc_html__( 'Default', 'bio-links' ),
-			'insta' => esc_html__( 'Instagram Style', 'bio-links' ),
-			'dark'  => esc_html__( 'Dark', 'bio-links' ),
-			'chic'  => esc_html__( 'Chic', 'bio-links' ),
+			'insta'   => esc_html__( 'Instagram Style', 'bio-links' ),
+			'dark'    => esc_html__( 'Dark', 'bio-links' ),
+			'chic'    => esc_html__( 'Chic', 'bio-links' ),
 		];
 
 
 		$cmb->add_field(
 			[
-				'name'             => esc_html__( 'Design', 'bio-links' ),
-				'desc'             => esc_html__( 'Pick a style for your link page!', 'MELON_TXT' ),
+				'name'             => esc_html__( 'Choose Style', 'bio-links' ),
+				'desc'             => esc_html__( 'Pick a style for your link page!', 'bio-links' ),
 				'id'               => biolinks_prefix( 'layout' ),
 				'type'             => 'select',
 				'show_option_none' => false,
