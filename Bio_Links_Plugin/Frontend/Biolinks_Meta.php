@@ -49,7 +49,7 @@ class Biolinks_Meta {
 			return;
 		}
 
-		echo wp_kses_post( $this->get( 'description' ) );
+		echo wpautop( wp_kses_post( $this->get( 'description' ) ) );
 
 	}
 
