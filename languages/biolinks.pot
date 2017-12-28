@@ -17,7 +17,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: Bio_Links_Plugin.php:96, Bio_Links_Plugin.php:105
+#: Bio_Links_Plugin.php:88, Bio_Links_Plugin.php:97
 msgid "Can't do this thing."
 msgstr ""
 
