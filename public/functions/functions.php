@@ -26,7 +26,6 @@ function biolinks_new_meta_instance() {
 }
 
 
-
 /**
  * Detect whether current layout is an archive layout
  *
@@ -35,4 +34,9 @@ function biolinks_new_meta_instance() {
 function biolinks_is_queried() {
 
 	return ( 'biolink' === get_post_type() );
+}
+
+function biolinks_body_class() {
+
+	echo biolinks_current_meta()->layout(); // it's already sanitized @layout method
 }
