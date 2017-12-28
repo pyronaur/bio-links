@@ -121,7 +121,8 @@ final class Bio_Links_Plugin {
 		 */
 		if ( biolinks_is_queried() ) {
 
-			$override = new Template_Override( 'blank' );
+			$meta = biolinks_current_meta();
+			$override = new Template_Override( $meta->layout() );
 			$override->load();
 
 		}
@@ -174,13 +175,6 @@ final class Bio_Links_Plugin {
 		 * This at the core of loading all of the Bio Links template files
 		 */
 		add_filter( 'template_include', [ $this, 'override_template_include' ], 150 );
-
-		/**
-		 *
-		 * == Miscellaneous ==
-		 *
-		 */
-
 
 	}
 
