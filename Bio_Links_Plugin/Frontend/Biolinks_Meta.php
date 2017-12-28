@@ -75,4 +75,15 @@ class Biolinks_Meta {
 	}
 
 
+	public function layout() {
+
+		if ( ! $this->get( 'layout' ) ) {
+			return 'blank';
+		}
+
+		return sanitize_html_class( $this->get( 'layout' ) );
+
+	}
+
+
 }
