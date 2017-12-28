@@ -97,9 +97,10 @@ class Register_Metaboxes {
 		);
 
 		$available_layouts = [
-			'blank' => esc_html__( 'Default', 'bio-links' ),
+			'default' => esc_html__( 'Default', 'bio-links' ),
 			'insta' => esc_html__( 'Instagram Style', 'bio-links' ),
-			'pink'  => esc_html__( 'Pink', 'bio-links' ),
+			'dark'  => esc_html__( 'Dark', 'bio-links' ),
+			'chic'  => esc_html__( 'Chic', 'bio-links' ),
 		];
 
 
@@ -107,7 +108,7 @@ class Register_Metaboxes {
 			[
 				'name'             => esc_html__( 'Design', 'bio-links' ),
 				'desc'             => esc_html__( 'Pick a style for your link page!', 'MELON_TXT' ),
-				'id'               => 'layout',
+				'id'               => biolinks_prefix( 'layout' ),
 				'type'             => 'select',
 				'show_option_none' => false,
 				'default'          => 'custom',

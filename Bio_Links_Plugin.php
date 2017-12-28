@@ -122,6 +122,7 @@ final class Bio_Links_Plugin {
 		if ( biolinks_is_queried() ) {
 
 			$meta = biolinks_current_meta();
+
 			$override = new Template_Override( $meta->layout() );
 			$override->load();
 

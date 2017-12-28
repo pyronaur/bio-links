@@ -78,7 +78,7 @@ class Biolinks_Meta {
 	public function layout() {
 
 		if ( ! $this->get( 'layout' ) ) {
-			return 'blank';
+			return 'default';
 		}
 
 		return sanitize_html_class( $this->get( 'layout' ) ); // biolinks_body_class() relies on sanizitation
