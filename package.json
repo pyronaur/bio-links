@@ -2,22 +2,22 @@
   "name": "biolinks",
   "version": "1.0.0",
   "devDependencies": {
-    "autoprefixer": "^6.3.5",
+    "autoprefixer": "^7.2.4",
     "browser-sync": "^2.22.0",
     "browser-sync-webpack-plugin": "^1.2.0",
-    "del": "^2.2.0",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-sort": "^2.0.0",
-    "gulp-wp-pot": "^1.1.1",
+    "gulp-wp-pot": "^2.0.7",
     "gulp-wrap": "*",
     "laravel-mix": "^1.7.2",
-    "map-stream": "0.0.6",
+    "map-stream": "0.0.7",
     "merge-stream": "^1.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
-    "vinyl": "^1.1.1",
+    "vinyl": "^2.1.0",
     "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^2.0.0"
   },
   "scripts": {
     "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
