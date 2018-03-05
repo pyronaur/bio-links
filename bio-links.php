@@ -7,7 +7,7 @@
  * Plugin Name:       Bio links
  * Plugin URI:        http://colormelon.com/plugins/bio-links
  * Description:       With Bio Links plugin you can turn a single link into many. A helpful tool direct your visitors where they need to go.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            Colormelon
  * Author URI:        http://colormelon.com
  * License:           GPL-3.0+
