@@ -9,9 +9,9 @@ gulp.task( 'pot', function () {
             domain        : 'biolinks',
             destFile      : 'biolinks.pot',
             package       : 'Bio Links',
-            bugReport     : 'http://help.colormelon.com',
-            lastTranslator: 'Colormelon <help@colormelon.com>',
-            team          : 'Colormelon <help@colormelon.com>',
+            bugReport     : 'http://help.pyronaur.com',
+            lastTranslator: 'Pyronaur <help@pyronaur.com>',
+            team          : 'Pyronaur <help@pyronaur.com>',
         } ) )
         .pipe( gulp.dest( 'languages' ) )
 } )

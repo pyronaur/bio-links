@@ -1,6 +1,6 @@
 === Bio Links ===
-Contributors: Colormelon
-Donate link: http://colormelon.com/
+Contributors: Pyronaur
+Donate link: http://pyronaur.com/
 Tags: links, social, profile, instagram, twitter
 Requires at least: 4.7.0
 Tested up to: 4.9.1
@@ -30,10 +30,10 @@ Bio Links will allow you to create as many link landing pages as you need. Each 
 ## Demo
 You can also pick a design for each of your landing pages. Currently, you can choose from 4 design variations:
 
-* [Default](http://biolinks.bycolormelon.com/link/default)
-* [Instagram Style](http://biolinks.bycolormelon.com/link/instagram)
-* [Dark](http://biolinks.bycolormelon.com/link/dark)
-* [Chic](http://biolinks.bycolormelon.com/link/chic)
+* [Default](http://biolinks.bypyronaur.com/link/default)
+* [Instagram Style](http://biolinks.bypyronaur.com/link/instagram)
+* [Dark](http://biolinks.bypyronaur.com/link/dark)
+* [Chic](http://biolinks.bypyronaur.com/link/chic)
 
 Bio Links plugin is optimized for speed, it won't load your theme files. The plugin will load its own styles and template files to maximize the performance of your landing pages!
 
@@ -46,7 +46,7 @@ Give it a try and send your followers to content that deserves their attention.
 
 = GitHub for Developers? =
 The plugin is really easy to extend, have a look at the source in the `/plugins/bio-links/public` directory.
-Everything code-related can be found on [GitHub](https://github.com/colormelon/bio-links/)
+Everything code-related can be found on [GitHub](https://github.com/pyronaur/bio-links/)
 
 == Installation ==
 

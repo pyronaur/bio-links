@@ -19,7 +19,7 @@ final class Bio_Links_Plugin {
 	protected static $_instance = NULL;
 
 	/**
-	 * Colormelon Bio Links Version
+	 * Bio Links Version
 	 *
 	 * @var string
 	 */

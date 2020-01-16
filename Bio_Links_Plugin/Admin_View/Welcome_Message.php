@@ -46,8 +46,8 @@ class Welcome_Message {
 
 	public function the_message() {
 
-		$url_video_tutorial = "https://colormelon.com/easy-biolinks-full-setup-guide/?utm_source=easy-biolinks&utm_medium=welcome";
-		$url_documentation  = "http://go.colormelon.com/epp-tutorial";
+		$url_video_tutorial = "https://pyronaur.com/easy-biolinks-full-setup-guide/?utm_source=easy-biolinks&utm_medium=welcome";
+		$url_documentation  = "http://go.pyronaur.com/epp-tutorial";
 		?>
 		<div class="Biolinks_Welcome notice">
 			<h4><?php esc_html_e( 'Welcome to Bio Links', 'biolinks' ); ?></h4>

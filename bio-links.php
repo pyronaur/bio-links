@@ -1,15 +1,15 @@
 <?php
 /**
  * @package           Bio Links
- * @link              http://colormelon.com
+ * @link              http://pyronaur.com
  *
  * @wordpress-plugin
  * Plugin Name:       Bio links
- * Plugin URI:        http://colormelon.com/plugins/bio-links
+ * Plugin URI:        http://pyronaur.com/plugins/bio-links
  * Description:       With Bio Links plugin you can turn a single link into many. A helpful tool direct your visitors where they need to go.
  * Version:           1.0.2
- * Author:            Colormelon
- * Author URI:        http://colormelon.com
+ * Author:            Pyronaur
+ * Author URI:        http://pyronaur.com
  * License:           GPL-3.0+
  * License URI:       http://www.gnu.org/licenses/gpl-3.0.txt
  * Text Domain:       bio-links
