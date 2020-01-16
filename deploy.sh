@@ -100,6 +100,8 @@ gulpfile.coffee
 deploy.sh
 version.sh
 package.json
+phyncer.yml
+.lando.yml
 node_modules" "$SVNPATH/trunk/"
 
 echo "Exporting the HEAD of master from git to the trunk of SVN"
