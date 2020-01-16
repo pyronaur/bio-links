@@ -3,7 +3,7 @@ Contributors: Pyronaur
 Donate link: http://pyronaur.com/
 Tags: links, social, profile, instagram, twitter
 Requires at least: 4.7.0
-Tested up to: 4.9.1
+Tested up to: 5.3.2
 Stable tag: 1.0.2
 Requires PHP: 5.4.0
 License: GPLv3 or later
@@ -30,10 +30,10 @@ Bio Links will allow you to create as many link landing pages as you need. Each 
 ## Demo
 You can also pick a design for each of your landing pages. Currently, you can choose from 4 design variations:
 
-* [Default](http://biolinks.bypyronaur.com/link/default)
-* [Instagram Style](http://biolinks.bypyronaur.com/link/instagram)
-* [Dark](http://biolinks.bypyronaur.com/link/dark)
-* [Chic](http://biolinks.bypyronaur.com/link/chic)
+* [Default](http://biolinks.pyronaur.com/link/default)
+* [Instagram Style](http://biolinks.pyronaur.com/link/instagram)
+* [Dark](http://biolinks.pyronaur.com/link/dark)
+* [Chic](http://biolinks.pyronaur.com/link/chic)
 
 Bio Links plugin is optimized for speed, it won't load your theme files. The plugin will load its own styles and template files to maximize the performance of your landing pages!
 
