@@ -23,7 +23,7 @@ final class Bio_Links_Plugin {
 	 *
 	 * @var string
 	 */
-	private $version = '1.0.2';
+	private $version = '1.0.3';
 
 
 	/**
