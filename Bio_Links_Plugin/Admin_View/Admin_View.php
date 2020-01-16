@@ -16,9 +16,6 @@ class Admin_View {
 	 */
 	public function __construct() {
 
-		// Show welcome message in admin view
-//		new Welcome_Message();
-
 		// Portfolio entry meta fields ( subtitle, gallery, ... )
 		$this->metaboxes = new Register_Metaboxes();
 
