@@ -12,6 +12,7 @@ mix
     Build Stylus
  */
 mix.stylus( 'sources/style/frontend/biolinks.styl', 'public/build' )
+mix.stylus( 'sources/style/admin/biolinks-admin.styl', 'public/build' )
 
 mix.browserSync( {
     proxy: 'http://plugins.wp/',
