@@ -4,7 +4,7 @@ Donate link: http://pyronaur.com/
 Tags: links, social, profile, instagram, twitter
 Requires at least: 4.7.0
 Tested up to: 5.3.2
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 Requires PHP: 5.4.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
