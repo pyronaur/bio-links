@@ -76,9 +76,8 @@ else {
 	/**
 	 * Include CMB2
 	 */
-	if ( file_exists( $__DIR . '/vendor/webdevstudios/cmb2/init.php' ) ) {
-		require_once $__DIR . '/vendor/webdevstudios/cmb2/init.php';
-
+	if ( file_exists( $__DIR . '/vendor/cmb2/cmb2/init.php' ) ) {
+		require_once $__DIR . '/vendor/cmb2/cmb2/init.php';
 	}
 
 
