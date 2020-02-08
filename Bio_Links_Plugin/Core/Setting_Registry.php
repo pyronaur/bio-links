@@ -76,15 +76,6 @@ class Setting_Registry {
 		return $this->registry;
 	}
 
-
-	public function add_all( $settings ) {
-
-		foreach ( $settings as $setting ) {
-			$this->add( $setting );
-		}
-	}
-
-
 	public function add( $setting ) {
 
 
