@@ -5,10 +5,13 @@ namespace Bio_Links_Plugin\Frontend;
 
 
 class Biolinks_Meta {
-	private $post_id;
 
-	use Get_Meta;
+	protected $post_id;
 
+	/**
+	 * @var Meta
+	 */
+	protected $meta;
 
 	/**
 	 * Biolinks_Meta constructor.
@@ -16,20 +19,21 @@ class Biolinks_Meta {
 	public function __construct( $post_id ) {
 
 		$this->post_id = $post_id;
-		$this->set_meta( get_post_meta( $post_id ) );
+		$this->meta    = new Meta( $post_id );
+
 	}
 
 
 	public function the_thumbnail() {
 
 
-		if ( ! $this->get( 'thumbnail_id' ) ) {
+		if ( ! $this->meta->get( 'thumbnail_id' ) ) {
 			return;
 		}
 
 
 		$img = wp_get_attachment_image(
-			$this->get( 'thumbnail_id' ),
+			$this->meta->get( 'thumbnail_id' ),
 			'thumbnail',
 			NULL,
 			[
@@ -45,11 +49,11 @@ class Biolinks_Meta {
 
 	public function the_description() {
 
-		if ( ! $this->get( 'description' ) ) {
+		if ( ! $this->meta->get( 'description' ) ) {
 			return;
 		}
 
-		echo wpautop( wp_kses_post( $this->get( 'description' ) ) );
+		echo wpautop( wp_kses_post( $this->meta->get( 'description' ) ) );
 
 	}
 
@@ -59,29 +63,29 @@ class Biolinks_Meta {
 	 */
 	public function links() {
 
+		$links = $this->meta->get( 'links' );
 
-		if ( ! $this->get( 'links' ) ) {
+		if ( empty( $links ) || ! is_array( $links ) ) {
 			return [];
 		}
 
-		return array_map(
-			function ( $meta ) {
+		$results = [];
+		foreach ( $links as $link_meta ) {
+			$results[] = new Link( $link_meta );
+		}
 
-				return new Link( $meta );
-			},
-			unserialize( $this->get( 'links' ) )
-		);
+		return $results;
 
 	}
 
 
 	public function layout() {
 
-		if ( ! $this->get( 'layout' ) ) {
+		if ( ! $this->meta->get( 'layout' ) ) {
 			return 'default';
 		}
 
-		return sanitize_html_class( $this->get( 'layout' ) ); // biolinks_body_class() relies on sanizitation
+		return sanitize_html_class( $this->meta->get( 'layout' ) ); // biolinks_body_class() relies on sanizitation
 
 	}
 

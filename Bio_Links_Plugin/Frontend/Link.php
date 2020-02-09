@@ -5,35 +5,44 @@ namespace Bio_Links_Plugin\Frontend;
 
 
 class Link {
-	use Get_Meta;
 
+	protected $data;
 
 	/**
 	 * Link constructor.
 	 */
-	public function __construct( $meta ) {
+	public function __construct( $data ) {
+		$this->data = $data;
 
-		$this->set_meta( $meta );
+	}
+
+	public function get( $key, $default = false ) {
+		if ( ! isset( $this->data[ $key ] ) ) {
+			return $default;
+		}
+
+		return $this->data[ $key ];
+
 	}
 
 
 	public function the_title() {
 
-		if ( ! $this->get( 'title', false ) ) {
+		if ( ! $this->get( 'title' ) ) {
 			return;
 		}
-		echo wp_kses_post( $this->get( 'title', false ) );
+		echo wp_kses_post( $this->get( 'title' ) );
 
 	}
 
 
 	public function the_url() {
 
-		if ( ! $this->get( 'url', false ) ) {
+		if ( ! $this->get( 'url' ) ) {
 			return;
 		}
 
-		echo esc_url( $this->get( 'url', false ) );
+		echo esc_url( $this->get( 'url' ) );
 	}
 
 
