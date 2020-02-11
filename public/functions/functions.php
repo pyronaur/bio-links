@@ -38,5 +38,5 @@ function biolinks_is_queried() {
 
 function biolinks_body_class() {
 
-	echo biolinks_current_meta()->layout(); // it's already sanitized @layout method
+	echo sanitize_html_class( biolinks_current_meta()->layout() );
 }
