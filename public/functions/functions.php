@@ -2,6 +2,7 @@
 
 /**
  * Easy access to our god-class
+ *
  * @return \Bio_Links_Plugin
  */
 function biolinks_instance() {
@@ -38,5 +39,5 @@ function biolinks_is_queried() {
 
 function biolinks_body_class() {
 
-	echo sanitize_html_class( biolinks_current_meta()->layout() );
+	echo esc_attr( biolinks_current_meta()->layout() );
 }
